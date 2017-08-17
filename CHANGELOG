@@ -5,6 +5,7 @@
 * #551 Method `$.setValue()` should not fail if it could not trigger change event (for whatever reason).
 * #528 - Wrong ElementNotFound exception message  -- thanks to @BorisOsipov
 * #573 - Method `$.shouldHave(exactValue(" foo  "))` does NOT trim leading/trailing spaces anymore - thanks to @mseele for this PR 
+* upgrade to selenium-java 3.5.1
 
 === 4.5.1 (released 27.06.2017)
 * #484 added method $.getSearchCriteria()
