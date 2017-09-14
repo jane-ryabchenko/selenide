@@ -125,6 +125,7 @@ public class ThreadLocalConfiguration {
     private Object readGlobalConfigurationProperty(String property)
         throws NoSuchFieldException, IllegalAccessException {
       Object value = this.parameters.get().get(property);
+
       if (value == null) {
         Field field = checkNotNull(Configuration.class.getField(property),
             "Global property [Configuration.%s] does not exist", property);
